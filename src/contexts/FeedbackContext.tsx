@@ -208,7 +208,7 @@ export const FeedbackProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       )}
 
       {/* ── TOAST CONTAINER ───────────────────────────────────────────── */}
-      <div className="fixed inset-0 z-[9999] flex flex-col items-center justify-center gap-3 pointer-events-none px-4">
+      <div className="fixed inset-x-0 top-6 z-[9999] flex flex-col items-center gap-3 pointer-events-none px-4">
         {toasts.map((t) => (
           <div
             key={t.id}
